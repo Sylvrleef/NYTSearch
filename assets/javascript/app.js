@@ -21,7 +21,31 @@ $(document).ready(function () {
 
 
     // Display the "TITLE" of the article
+    // .response.docs[i].headline.main
     $("#title").text("")
+
+
+
+
+
+
+    // Display the "AUTHOR" of the article
+    // .response.docs[i].byline.original
+
+
+
+    // Display the "DATE" of the article
+    // .response.docs[i].pub_date
+
+
+
+    // Display the "SOURCE" of the article
+    // .response.docs[i].source
+
+
+
+    // Display the "URL" of the article
+    // .response.docs[i].web_url
 
 
 });

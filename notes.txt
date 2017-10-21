@@ -1,1 +1,9 @@
 api key = bf54a6307b9545ac8f98e8edddec3c3e
+
+
+
+Title:          .response.docs[i].headline.main
+Author:         .response.docs[i].byline.original
+Date posted:    .response.docs[i].pub_date
+Source:         .response.docs[i].source
+URL:            .response.docs[i].web_url
