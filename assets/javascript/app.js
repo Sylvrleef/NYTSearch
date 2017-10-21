@@ -25,29 +25,16 @@ $(document).ready(function () {
     // Display the "TITLE" of the article
     console.log(response.docs[0].headline.main)
 
-
-
-
-
-
-
     // Display the "AUTHOR" of the article
-    // .response.docs[i].byline.original
-
-
+    console.log(response.docs[0].byline.original)
 
     // Display the "DATE" of the article
-    // .response.docs[i].pub_date
-
-
+    console.log(response.docs[0].pub_date)
 
     // Display the "SOURCE" of the article
-    // .response.docs[i].source
-
-
+    console.log(response.docs[0].source)
 
     // Display the "URL" of the article
-    // .response.docs[i].web_url
-
+    console.log(response.docs[0].web_url)
 
 });
