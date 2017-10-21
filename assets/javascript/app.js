@@ -20,9 +20,11 @@ $(document).ready(function () {
     });
 
 
+
+
     // Display the "TITLE" of the article
-    // .response.docs[i].headline.main
-    $("#title").text("")
+    console.log(response.docs[0].headline.main)
+
 
 
 
