@@ -20,19 +20,21 @@ $(document).ready(function () {
     });
 
 
-
+for ( var i = 0; i < result.length; i = i + 1) {
+    //if
+}
 
     // Display the "TITLE" of the article
-    console.log(response.docs[0].headline.main)
+    console.log(response.docs[0].headline.main);
 
     // Display the "AUTHOR" of the article
-    console.log(response.docs[0].byline.original)
+    console.log(response.docs[0].byline.original);
 
     // Display the "DATE" of the article
-    console.log(response.docs[0].pub_date)
+    console.log(response.docs[0].pub_date);
 
     // Display the "SOURCE" of the article
-    console.log(response.docs[0].source)
+    console.log(response.docs[0].source);
 
     // Display the "URL" of the article
     console.log(response.docs[0].web_url)
